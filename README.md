@@ -92,6 +92,21 @@ npm start
     └── server.js               # Main server file: sets up the Apollo Server, defines the GraphQL schema, and resolvers to handle data queries.
 </code></pre>
 
+<h3 id="client/apolloClient.js">/client/lib/apolloClient.js</h3>
+<p>This file configures the Apollo Client. It initializes an instance of Apollo Client and connects it to the GraphQL server URL. The client is set up with caching mechanisms to optimize data fetching and performance.</p>
+
+<h3 id="client/ApolloWrapper.js">/client/app/ApolloWrapper.js</h3>
+<p>The ApolloWrapper component wraps the entire application in the ApolloProvider, which makes the Apollo Client instance available throughout the app. This allows you to use hooks like <code>useQuery</code> and <code>useMutation</code> in your components.</p>
+
+<h3 id="client/layout.js">/client/app/layout.js</h3>
+<p>This file defines the main layout of the application. It includes shared components like headers, footers, and navigation. This helps maintain a consistent structure across different pages of the app.</p>
+
+<h3 id="client/page.js">/client/app/page.js</h3>
+<p>The main page component where user data is fetched and displayed. It utilizes the <code>useQuery</code> hook to fetch user data from the GraphQL server and renders it in a list format, ensuring efficient data handling and user experience.</p>
+
+<h3 id="server/server.js">/server/server.js</h3>
+<p>This is the entry point of the Apollo server. It sets up the Apollo Server with defined GraphQL schema and resolvers. This file handles incoming GraphQL requests and serves data to the client based on the queries made.</p>
+
 <h2 id="understanding-apollo">Understanding Apollo</h2>
 
 <h3 id="apollo-server">Apollo Server</h3>
@@ -118,12 +133,13 @@ npm start
 <ul>
     <li><a href="https://www.apollographql.com/docs/">Apollo Documentation</a> - Comprehensive documentation on Apollo Server, Apollo Client, and more.</li>
     <li><a href="https://graphql.org/learn/">GraphQL Documentation</a> - Official documentation for GraphQL, covering queries, mutations, and schemas.</li>
-    <li><a href="https://www.udemy.com/course/graphql-bootcamp-build-graphql-api-using-nodejs/">GraphQL Bootcamp on Udemy</a> - A practical course to learn GraphQL with Apollo.</li>
-    <li><a href="https://www.youtube.com/channel/UCfP2vV_AxPGR1J6D4d9V3gA">Apollo GraphQL YouTube Channel</a> - Video tutorials and talks about Apollo and GraphQL.</li>
 </ul>
 
 <h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+<h2>LinkedIn</h2>
+<p>Feel free to connect with me on LinkedIn: <a href="https://www.linkedin.com/in/mokamaleldin/" target="_blank">Mokamaleldin</a></p>
 
 </body>
 </html>
