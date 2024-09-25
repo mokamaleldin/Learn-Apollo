@@ -4,44 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn Apollo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #4CAF50;
-        }
-        h1 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 10px;
-        }
-        h2 {
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        p, li {
-            line-height: 1.6;
-        }
-        code {
-            background-color: #e7e7e7;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #e7e7e7;
-            padding: 10px;
-            border-radius: 4px;
-            overflow: auto;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-    </style>
 </head>
 <body>
 
