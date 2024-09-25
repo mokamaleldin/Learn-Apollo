@@ -81,11 +81,11 @@ npm start
 <p>Here's a brief overview of the project structure:</p>
 <pre><code>/Learn-Apollo
 │
-├── /client             # React client application
-│   ├── /lib            # Apollo client configuration
-│   ├── ApolloWrapper.js # Apollo Provider wrapper
-│   ├── layout.js       # Main layout for the app
-│   └── page.js         # Main page displaying users
+├── /client                     # React client application
+│   ├── /lib/apolloClient.js    # Apollo client configuration
+│   ├── /app/ApolloWrapper.js   # Apollo Provider wrapper
+│   ├── /app/layout.js          # Main layout for the app
+│   └── /app/page.js            # Main page displaying users
 │
 └── /server             # Apollo server application
     └── server.js       # Main server file
